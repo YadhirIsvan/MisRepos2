@@ -2,6 +2,11 @@
 hola esto es la primera linea
 hola esto es la segunda linea
 
+comandos para establecer un origen
+
+-gir remote add origin *se concatena la liga ssh de nuestro repositorio *
+
+
 comando para hacer push
 
 primero 
