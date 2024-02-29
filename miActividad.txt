@@ -1,3 +1,8 @@
 
 hola esto es la primera linea
 hola esto es la segunda linea
+
+comando para hacer push
+
+primero 
+-git pull origin main --allow-unrelated-histories
