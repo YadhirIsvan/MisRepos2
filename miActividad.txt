@@ -11,3 +11,7 @@ comando para hacer push
 
 primero 
 -git pull origin main --allow-unrelated-histories
+
+
+agregando nuevo contenido para el dia de hoy
+
