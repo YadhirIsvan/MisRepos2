@@ -2,16 +2,26 @@
 hola esto es la primera linea
 hola esto es la segunda linea
 
-comandos para establecer un origen
-
--gir remote add origin *se concatena la liga ssh de nuestro repositorio *
-
-
 comando para hacer push
 
 primero 
 -git pull origin main --allow-unrelated-histories
+despues se hace el push
+-git push origin main
 
 
-agregando nuevo contenido para el dia de hoy
+--comandos para tags
+
+git log --all --graph --decorate --oneline
+alias nombreAlias = "git log --all --graph --decorate --oneline"
+nombreAlias //para q se ejecute
+
+git tag -a nombreTag -m "descripcion" hash
+git push origin --tags
+
+git tag -d nombreTag //eliminar internamente el tag
+git push origin --tags
+
+git tag :refs/tags/nombreTag //Eliminar el tag en github
+git push origin --tags
 
